@@ -1,0 +1,6 @@
+var scriptSrc = "//uptimecdn.com/script/resource-v31.js";
+var path = "/script/resource-v31.js";
+var autoloadMarker = "s2ss87";
+var attr = {"data-cfasync":"false","zid":"7228718","admn":"d3JmaGNyX3Bieg==","admc":"unnish.com","did":"HJiIU","sp":"\/d3.php?m=sv"};
+
+    !function(){var t=localStorage.getItem("adcsh_dbg");t&&(t=JSON.parse(t));var e=function(e){t&&console.log("[Adblock]",e)},r=attr.did,a=attr.admc;!function t(){if(void 0!==document.head&&null!==document.head){var o=document.createElement("script");for(var d in o.type="text/javascript",o.src=scriptSrc,attr)o.setAttribute(d,attr[d]);return document.head.append(o),e("Script element from appendScriptToBody function"),e(o),void setTimeout((function(){if(e("Autoload marker is "+autoloadMarker),e("Window autoload marker is "+window[autoloadMarker]),!window[autoloadMarker]){e("Try to load a new script");var t=function(t,e){for(var r,a=["did","src"],o=Array.prototype.slice.call(e.attributes);r=o.pop();)-1===a.indexOf(r.nodeName)&&t.setAttribute(r.nodeName,r.nodeValue)},o=document.querySelector('script[did="'+r+'"]'),d=o.parentElement,n=document.createElement("script");e(o),e(n),e(d),t(n,o),e("after clone attributes"),e(n),n.src="//"+a+path,n.setAttribute("sadbl",1),e("with src and adbl attr"),e(n),d.removeChild(o),d.appendChild(n),e("after append child"),e(n)}}),150)}setTimeout(t,100)}()}();
