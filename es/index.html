@@ -11,7 +11,7 @@
 <meta name="description" content="Todo el fútbol Argentino e Internacional solo por Fútbol Libre. Ver Fútbol Argentino en VIVO, Copa Libertadores, Sudamericana y cientos de canales deportivos"><meta name="google-site-verification" content="Z-r3ayxcf3Fs9_Qw4uJUskglMR8sk_T3fGaAd2M62VY" />
 <meta property="og:locale" content="es_AR" />
 <meta property="og:type" content="website" />
-	<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+	
 <meta property="og:title" content="Fútbol Libre TV - Todos los canales de deportes"/><meta property="og:description" content="Todo el fútbol Argentino e Internacional solo por Fútbol Libre. Superliga, Copa Libertadores y Sudamericana y cientos de canales deportivos."/>
 <meta property="og:url" content="https://futbollibretv.net/es/" />
 <meta property="og:site_name" content="Fútbol Libre TV Online en VIVO y en directo" />
@@ -309,45 +309,7 @@ Fútbol Libre TV
 	
 <div><p align="left"><h2>¿Qué partidos de fútbol transmite Fútbol Libre?</h2></p>
 <p align="left">En <strong>Fútbol Libre</strong> se podran ver todos los partidos del futbol argentino que incluyen los de <strong>Boca Juniors</strong> y <strong>River Plate</strong> por el campeonato Argentino, Copa Libertadores y Copa Sudamericana. </p><br /></div-->
-<script>
-		const body = document.querySelector("body"),
-			  nav = document.querySelector("nav"),
-			  modeToggle = document.querySelector(".dark-light"),
-			  searchToggle = document.querySelector(".searchToggle"),
-			  sidebarOpen = document.querySelector(".sidebarOpen"),
-			  siderbarClose = document.querySelector(".siderbarClose");
-			  let getMode = localStorage.getItem("mode");
-				  if(getMode && getMode === "dark-mode"){
-					body.classList.add("dark");
-				  }
-		// js code to toggle dark and light mode
-			  modeToggle.addEventListener("click" , () =>{
-				modeToggle.classList.toggle("active");
-				body.classList.toggle("darkk");
-				// js code to keep user selected mode even page refresh or file reopen
-				if(!body.classList.contains("darkk")){
-					localStorage.setItem("mode" , "lightt-mode");
-				}else{
-					localStorage.setItem("mode" , "darkk-mode");
-				}
-			  });
-		// js code to toggle search box
-				searchToggle.addEventListener("clickk" , () =>{
-				searchToggle.classList.toggle("activee");
-			  });
-		 
-			  
-		//   js code to toggle sidebar
-		sidebarOpen.addEventListener("click" , () =>{
-			nav.classList.add("active");
-		});
-		body.addEventListener("click" , e =>{
-			let clickedElm = e.target;
-			if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
-				nav.classList.remove("active");
-			}
-		});
-		</script>
+
 
 <br />
 <div class="sharethis-inline-share-buttons"></div>
@@ -366,16 +328,12 @@ Fútbol Libre TV
 <li><a class="text-muted" href="https://futbollibretv.net/DMCA.html">DMCA</a></li>
 <br />
 <div style="text-align:center;">
-<small class="d-block mb-3 text-muted">Fútbol Libre TV 2023 &copy; Todos los derechos reservados.</small>
+<small class="d-block mb-3 text-muted">Fútbol Libre TV 2024 &copy; Todos los derechos reservados.</small>
 </ul>
 </div>
 </div>
 </footer>
 	
-<script>
-document.addEventListener("DOMContentLoaded",function(){var e;if("IntersectionObserver"in window){e=document.querySelectorAll(".lazy");var n=new IntersectionObserver(function(e,t){e.forEach(function(e){if(e.isIntersecting){var t=e.target;t.src=t.dataset.src,t.classList.remove("lazy"),n.unobserve(t)}})});e.forEach(function(e){n.observe(e)})}else{var t;function r(){t&&clearTimeout(t),t=setTimeout(function(){var n=window.pageYOffset;e.forEach(function(e){e.offsetTop<window.innerHeight+n&&(e.src=e.dataset.src,e.classList.remove("lazy"))}),0==e.length&&(document.removeEventListener("scroll",r),window.removeEventListener("resize",r),window.removeEventListener("orientationChange",r))},20)}e=document.querySelectorAll(".lazy"),document.addEventListener("scroll",r),window.addEventListener("resize",r),window.addEventListener("orientationChange",r)}});
-</script>
-<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5ab9c9531fff98001395a59a&product=inline-share-buttons"></script>
 </body>
 </html>
   
